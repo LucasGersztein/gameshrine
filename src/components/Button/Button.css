@@ -4,15 +4,17 @@ button {
     cursor: pointer;
     font-weight: 600;
     border-radius: 3px;
-    padding: 12px 24px;
+    padding: 4px 6px 10px 6px;
     border: 0;
-    color: #fff;
-    background: #000a47;
+    color: #000000;
+    background: #fff;
     line-height: 1.15;
-    font-size: 16px;
-    border-radius: 500px;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
 }
 button:hover {
     transition: all .1s ease;
-    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1d53e9;
+    box-shadow: 0 0 0 0 rgb(3, 0, 0), 0 0 0 3px #01040e;
 }

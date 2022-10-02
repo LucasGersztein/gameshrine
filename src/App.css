@@ -1,25 +1,11 @@
 .App {
   text-align: center;
-  background-color: rgba(4,4,60,1);
-  height: 1200px;
-  color: antiquewhite;
-}
+  height: auto;
 
-.App-header {
-/*   background-color: #282c34; */
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(4,4,60,1) 2%, rgba(0,0,0,1) 15%);
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  padding-top: 10px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {

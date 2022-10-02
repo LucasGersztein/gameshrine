@@ -1,23 +1,25 @@
 import './Navbar.css'
 import Logo from '../Logo/Logo'
-import Button from '../Button/Button'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-    return (
-        <nav>
-            <div>
+
+  return (
+      <nav className="NavBar" >
+          <div className='NavBar'>
+            <Link to='/'>
                 <Logo/>
-            </div>
-            <div class='botonera'>
-                <Button label={'Consolas'} />
-                <Button label={'Juegos'}/>
-                <Button label={'Accesorios'}/>
-            </div>
-            <div>
-                <CartWidget/>
-            </div>
-        </nav>
-    )
+            </Link>
+          </div>
+          <div className="Categories">
+              <Link to='/category/juegos' className="Option">Juegos</Link>
+              <Link to='/category/consolas' className="Option">Consolas</Link>
+              <Link to='/category/accesorios' className="Option">Accesorios</Link>
+          </div>
+          <CartWidget />
+      </nav>
+  )
 }
+
 export default Navbar

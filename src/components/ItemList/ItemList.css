@@ -1,0 +1,14 @@
+.CardGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card {
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0.521) !important;
+    color: black;
+    border-radius: 20%;
+}

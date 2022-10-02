@@ -1,16 +1,38 @@
-nav {
-    width: 1300px;
+nav.NavBar {
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 10px;
-}
-
-div.botonera {
+    height: 120px;
+    background-color: black;
+    background-size: cover ;
+}  
+  .Categories {
     width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
+  }
+  
+  .Option {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s; 
+    font-weight: 1000;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    line-height: 1.15;
+    font-size: 16px;
+    border-radius: 500px;
+    text-decoration: none;
+    }
+  .Option:hover {
+    color: #c70707 !important;
 }

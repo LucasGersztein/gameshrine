@@ -1,0 +1,17 @@
+div.Detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1.DetalleTitulo {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+p.DetalleP{
+    width: 1200px;
+    font-size: 20px;
+    text-align:justify;
+    color: antiquewhite;
+}
